@@ -17,7 +17,7 @@ package org.dimigo.oop;
  */
 public class IdolGroup {
 
-	public static void printArr(String[][] arr,int len){
+	public void printArr(String[][] arr,int len){
 		for(int i=0; i<arr[len].length; i++){
 			System.out.println(arr[len][i]);
 		}
