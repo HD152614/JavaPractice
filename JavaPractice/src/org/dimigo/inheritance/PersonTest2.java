@@ -27,12 +27,15 @@ public class PersonTest2 {
 			new Japanese("다나카"),
 			new Chinese("왕밍")
 		};
-		
-		for(Person i:p){
-			System.out.println(i);
-			i.sayHello();
-			i.sayBye();
-			System.out.println();
+		for(Person i:p)
+		{
+			greeting(i);
 		}
+	}
+	private static void greeting(Person p){
+		System.out.println(p);
+		p.sayHello();
+		p.sayBye();
+		System.out.println();
 	}
 }
