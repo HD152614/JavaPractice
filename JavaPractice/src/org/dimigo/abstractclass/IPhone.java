@@ -1,9 +1,9 @@
 /**
  * 
  */
-package abstractclass;
+package org.dimigo.abstractclass;
 
-import org.dimigo.inheritance.SmartPhone;
+import org.dimigo.abstractclass.SmartPhone;
 
 /**
  * <pre>

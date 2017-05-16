@@ -1,10 +1,7 @@
 /**
  * 
  */
-package abstractclass;
-
-import org.dimigo.inheritance.Galaxy;
-import org.dimigo.inheritance.IPhone;
+package org.dimigo.abstractclass;
 
 /**
  * <pre>
