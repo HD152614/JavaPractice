@@ -22,7 +22,7 @@ public class Galaxy extends SmartPhone{
 		super(model, company, price);
 	}
 	public void pay(){
-		super.pay();
+		System.out.println("삼성페이로 결제합니다.");
 	}
 	public void useWrielessCharging(){
 		System.out.println("useWrielessCharging 기능을 사용합니다.");

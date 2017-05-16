@@ -27,13 +27,13 @@ public class SmartPhoneTest {
 		System.out.println(iPhone);
 		iPhone.turnOn();
 		iPhone.pay();
-		iPhone.useSpecialFunction(iPhone);
+		iPhone.useSpecialFunction();
 		iPhone.turnOff();
 		
 		System.out.println(galaxy);
 		galaxy.turnOn();
 		galaxy.pay();
-		galaxy.useSpecialFunction(galaxy);
+		galaxy.useSpecialFunction();
 		galaxy.turnOff();
 	}
 
